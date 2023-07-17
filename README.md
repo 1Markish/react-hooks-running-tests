@@ -90,7 +90,7 @@ This example is doing the following:
   simulates a browser environment with browser-specific functionality, like the
   `document` object, which isn't available in Node. The `render` method then
   takes our React component and renders it in this simulated browser environment
-  so we can check that it was rendered as expected.
+  san check that o we cit was rendered as expected.
 - `expect`: This is a [Jest][jest] method, to which we pass some expected value
   for testing. In this case, we're using a custom [Jest DOM][jest-dom] matcher
   `toBeInTheDocument`, which checks if the element is present in the simulated
